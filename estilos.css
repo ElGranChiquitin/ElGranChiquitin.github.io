@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#general{
+    background: lightblue;
+    width: auto;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+}
+
+#cabecera{
+    height: 8%;
+    background: darkblue;
+    margin: 0.5em;
+    padding: 1em;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-style: ;
+
+    
+}
+
+
+#section{
+    height: 1200px;
+    background: darkblue;
+    margin: 0.5em;
+    padding: 1em;
+    color: white;
+    
+}
+
+
+.art{
+
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-stretch: wider;
+    padding: 1em;
+    margin: 2em;
+    float: left;
+    border: solid 2px black;
+   
+}
+
+#aside{
+    height: 400px;
+    width: 100px;
+    background: rgb(50, 65, 63);
+    margin: 2em;
+    padding: 1em;
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    float: right;
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png")
+}
+
+
+#pie{
+    height: 8%;
+    background: darkblue;
+    margin: 0.5em;
+    padding: 1em;
+    color: white;
+    font-size: 24px;
+}
+
+.art {
+transition: transform 1s ;
+}
+.art:hover{
+transform: scale(1.2)
+}
+
+ #nav{
+  transition: transform 10ms;   
+}
+ #nav :hover{
+    transform-box: 85;
+} 
+
