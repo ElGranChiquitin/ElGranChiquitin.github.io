@@ -8,6 +8,7 @@
     background: lightblue;
     width: auto;
     height: auto;
+    max-width:1000px;
     margin: 1em;
     padding: 1em;
 }
